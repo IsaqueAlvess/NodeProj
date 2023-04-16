@@ -1,0 +1,15 @@
+{
+  "name": "iniciando_com_nodejs",
+  "version": "1.0.0",
+  "description": "Projeto de NodeJs CodeDrops",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Isaque Antonio Alves",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}

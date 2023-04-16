@@ -1,0 +1,30 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name" : "Caderno Azulk Preto",
+    "price" : 1
+}
+###
+
+
+GET http://localhost:4002/products
+
+###
+
+GET  http://localhost:4002/products/1170139d-6741-43c2-b59f-fc4ee349ef23
+
+
+###
+
+PUT http://localhost:4002/products/15b2e884-f4c6-4560-9f06-ff5f2d5c1a8d
+content-type: application/json
+
+{
+    "name" : "Caneta Azulado Rosa Preto",
+    "price" : 1.55
+}
+
+### 
+
+DELETE http://localhost:4002/products/15b2e884-f4c6-4560-9f06-ff5f2d5c1a8d
